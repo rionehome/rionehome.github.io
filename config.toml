@@ -1,0 +1,63 @@
+baseURL = 'http://rionehome.github.io/'
+title = 'Ri-one Home'
+languageCode = 'jp'
+defaultContentLanguage = 'en'
+theme = 'hugo-coder'
+enableEmoji = true
+
+paginate = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+author = "Ri-one Home"
+info = "Team of Robocup @Home education in Ritsumeikan University"
+description = "Ri-one @Home education's website"
+avatarurl = "/images/avatar.png"
+favicon_32 = "/images/favicon-32x32.png"
+favicon_16 = "/images/favicon-16x16.png"
+touchIcon = "/images/apple-touch-icon.png"
+colorScheme = "auto"
+hidecolorschemetoggle = false
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/rionehome/"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-twitter fa-2x"
+weight = 2
+url = "https://twitter.com/Rione_Home/"
+
+[[params.social]]
+name = "Instagram"
+icon = "fa fa-instagram fa-2x"
+weight = 3
+url = "https://www.instagram.com/rione.home/"
+
+[[params.social]]
+name = "RSS"
+icon = "fa fa-2x fa-rss"
+weight = 6
+url = "index.xml"
+rel = "alternate"
+type = "application/rss+xml"
+
+[[menu.main]]
+name = "Posts"
+weight = 1
+url  = "posts/"
+
+[[menu.main]]
+name = "About"
+weight = 3
+url = "about/"
+
+[[menu.main]]
+name = "Contact"
+weight = 4
+url = "contact/"
