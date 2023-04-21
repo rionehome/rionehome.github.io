@@ -48,16 +48,24 @@ rel = "alternate"
 type = "application/rss+xml"
 
 [[menu.main]]
-name = "Posts"
+name = "About"
 weight = 1
+url = "about/"
+
+[[menu.main]]
+name = "Posts"
+weight = 2
 url  = "posts/"
 
 [[menu.main]]
-name = "About"
+name = "Tags"
 weight = 3
-url = "about/"
+url = "tags/"
 
 [[menu.main]]
 name = "Contact"
 weight = 4
 url = "contact/"
+
+[taxonomies]
+tag = "tags"
