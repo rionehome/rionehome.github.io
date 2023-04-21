@@ -1,8 +1,4 @@
-# rionehome.github.io
-
-Visit [here](https://rionehome.github.io/)
-
-## Getting started
+# Getting started
 
 1. Install [Hugo](https://gohugo.io/)
 2. Git clone this repository
