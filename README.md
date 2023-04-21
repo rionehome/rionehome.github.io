@@ -13,4 +13,4 @@ git submodule update --init
 git submodule foreach git pull origin main
 ```
 
-4. Run `hugo serve` to run local web server
+4. Run `hugo server` to run local web server
