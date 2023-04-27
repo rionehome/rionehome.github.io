@@ -63,8 +63,13 @@ weight = 3
 url = "tags/"
 
 [[menu.main]]
-name = "Contact"
+name = "Links"
 weight = 4
+url = "links/"
+
+[[menu.main]]
+name = "Contact"
+weight = 5
 url = "contact/"
 
 [taxonomies]
